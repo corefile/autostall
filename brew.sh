@@ -25,7 +25,8 @@ echo "Hipsterizing your terminal with homebrewed zsh"
   successfully brew install zsh-completions
   successfully brew install zsh-syntax-highlighting
  
-  
+  successfully brew install openssl
+  successfully brew install python
   successfully brew install httpie
   successfully brew install wget
   successfully brew install mtr
