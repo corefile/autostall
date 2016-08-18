@@ -7,3 +7,15 @@ successfully() {
 }
 
 ################################################################[ SW inst ]#####
+echo "Installing essential software..."
+  export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+  successfully brew cask install dropbox
+  successfully brew cask install the-unarchiver
+  successfully brew cask install google-chrome
+  successfully brew cask install vlc
+  successfully brew cask install skype
+  successfully brew cask install slack
+  successfully brew cask install istat-menus
+  successfully brew cask install github-desktop
+  successfully brew cask install sublime-text
+  successfully brew cask install alfred
