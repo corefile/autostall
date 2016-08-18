@@ -6,12 +6,11 @@ successfully() {
   $* || (echo "failed" 1>&2 && exit 1)
 }
 
-################################################################[ BREW ]########
-brew_path=`which brew`
-if [[ ! -f $brew_path ]]
-then 
-  echo "Installing Homebrew, a good OS X package manager..."
-      successfully ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if ! command -v brew >/dev/null; then
+  echo "Installing Homebrew ..."
+    curl -fsS \
+      'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+ export PATH="/usr/local/bin:$PATH"
 fi
 
 echo "Upda-grading Homebrew..."
