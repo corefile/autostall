@@ -18,3 +18,4 @@ fi
 ################################################################[ Basic SW ]####
 echo "Installing SW to make my Macbook useful... (thanks to Homebrew)"
   bash $BOOTSTRAP_DIR/brew.sh
+  bash $BOOTSTRAP_DIR/cask.sh
