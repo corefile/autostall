@@ -17,4 +17,4 @@ fi
 
 ################################################################[ Basic SW ]####
 echo "Installing SW to make my Macbook useful... (thanks to Homebrew)"
-  $BOOTSTRAP_DIR/brew.sh
+  . $BOOTSTRAP_DIR/brew.sh
