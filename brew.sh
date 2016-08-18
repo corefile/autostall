@@ -11,7 +11,7 @@ brew_path=`which brew`
 if [[ ! -f $brew_path ]]
 then 
   echo "Installing Homebrew, a good OS X package manager..."
-      successfully ruby <(curl -fsS https://raw.github.com/mxcl/homebrew/go)
+      successfully ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 echo "Upda-grading Homebrew..."
