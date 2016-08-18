@@ -7,3 +7,4 @@ DIR="$HOME/Repos"
 cd $DIR
 git clone --recursive https://github.com/corefile/autostall.git
 cd autostall
+bash bootstrap.sh
