@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Make this script execution path-independent
+export BOOTSTRAP_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 successfully() {
   $* || (echo "failed" 1>&2 && exit 1)
 }
@@ -14,4 +17,4 @@ fi
 
 ################################################################[ Basic SW ]####
 echo "Installing SW to make my Macbook useful... (thanks to Homebrew)"
-  bash brew.sh
+  $BOOTSTRAP_DIR/brew.sh
