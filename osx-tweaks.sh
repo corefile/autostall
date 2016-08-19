@@ -59,8 +59,8 @@ echo "Setting computer name..." # (as done via System Preferences -> Sharing)
 # ======
 
 # Use columns view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
-  defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# Four-letter codes for the other view modes: `icnv`, `Nlsv`, `Flwv`
+  defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Finder: show status bar
   defaults write com.apple.finder ShowStatusBar -bool true
