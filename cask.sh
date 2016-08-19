@@ -14,6 +14,7 @@ echo "Installing essential software..."
   successfully brew cask install google-drive
   successfully brew cask install the-unarchiver
   successfully brew cask install google-chrome
+  successfully brew cask install 1password
   successfully brew cask install vlc
   successfully brew cask install skype
   successfully brew cask install slack
@@ -25,3 +26,5 @@ echo "Installing essential software..."
   successfully brew cask install vagrant
   successfully brew cask install virtualbox
   successfully brew cask install alfred
+  successfully brew cask install charles
+  
