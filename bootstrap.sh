@@ -31,6 +31,6 @@ echo "Run Dropbox to configure its folder..."
   successfully open /Applications/Dropbox.app
 
 echo "Adding some shortcuts to my Dock..."
-  $BOOTSTRAP_DIR/Folder2Dock.sh $HOME/ Home
-  $BOOTSTRAP_DIR/Folder2Dock.sh $HOME/Dropbox/ Dropbox
+  successfully bash $BOOTSTRAP_DIR/Folder2Dock.sh $HOME/ Home
+  successfully bash $BOOTSTRAP_DIR/Folder2Dock.sh $HOME/Dropbox/ Dropbox
   killall Dock
