@@ -16,14 +16,11 @@ echo "Root password needed to run OSX customization of settings:"
 # General
 # =======
 
-echo "Type in a name for your machine, followed by [ENTER]:"
-  successfully read SYSTEM_HOSTNAME
-
 echo "Setting computer name..." # (as done via System Preferences -> Sharing)
-  sudo scutil --set ComputerName "$SYSTEM_HOSTNAME"
-  sudo scutil --set HostName "$SYSTEM_HOSTNAME"
-  sudo scutil --set LocalHostName "$SYSTEM_HOSTNAME"
-  sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$SYSTEM_HOSTNAME"
+  sudo scutil --set ComputerName "RedBaron"
+  sudo scutil --set HostName "RedBaron"
+  sudo scutil --set LocalHostName "RedBaron"
+  sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "RedBaron"
   
 # Expand print panel by default
   defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
