@@ -36,3 +36,4 @@ echo "Hipsterizing your terminal with homebrewed zsh"
   successfully brew install imagemagick
   successfully brew install youtube-dl
   successfully brew install watch
+  successfully brew install doxygen
