@@ -9,7 +9,6 @@ successfully() {
 ################################################################[ SW inst ]#####
 echo "Installing essential software..."
   export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-  successfully brew cask install doxygen
   successfully brew cask install dropbox
   successfully brew cask install google-drive
   successfully brew cask install the-unarchiver
