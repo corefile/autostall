@@ -25,3 +25,12 @@ echo "Customizin OSX... (inspired by https://github.com/mathiasbynens/dotfiles)"
   successfully bash $BOOTSTRAP_DIR/osx-tweaks.sh
 echo "Setting RootFS to mount with 'noatime'..."
   successfully sh $BOOTSTRAP_DIR/MountNoAtime.sh
+  
+################################################################[ Dock Links ]##
+echo "Run Dropbox to configure its folder..."
+  successfully open /Applications/Dropbox.app
+
+echo "Adding some shortcuts to my Dock..."
+  $BOOTSTRAP/Folder2Dock.sh $HOME/ Home
+  $BOOTSTRAP/Folder2Dock.sh $HOME/Dropbox/ Dropbox
+  killall Dock
