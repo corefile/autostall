@@ -22,4 +22,6 @@ echo "Installing SW to make my Macbook useful... (thanks to Homebrew)"
   
 ################################################################[ OSX ]#########
 echo "Customizin OSX... (inspired by https://github.com/mathiasbynens/dotfiles)"
-  bash $BOOTSTRAP_DIR/osx-tweaks.sh
+  successfully bash $BOOTSTRAP_DIR/osx-tweaks.sh
+echo "Setting RootFS to mount with 'noatime'..."
+  successfully sh $BOOTSTRAP_DIR/MountNoatime.sh
