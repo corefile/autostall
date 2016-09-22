@@ -29,7 +29,7 @@ echo "Setting computer name..." # (as done via System Preferences -> Sharing)
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Add iOS Simulator to Launchpad
-  ln -s /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Applications/iOS\ Simulator.app
+#  ln -s /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Applications/iOS\ Simulator.app
   
 # Enable the Develop menu and the Web Inspector in Safari
   defaults write com.apple.Safari IncludeDevelopMenu -bool true
