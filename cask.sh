@@ -16,7 +16,7 @@ echo "Installing essential software..."
   successfully brew cask install 1password
   successfully brew cask install vlc
   successfully brew cask install skype
-  successfully brew cask install slack
+  successfully brew cask install hipchat
   successfully brew cask install istat-menus
   successfully brew cask install github-desktop
   successfully brew cask install sublime-text
@@ -25,5 +25,4 @@ echo "Installing essential software..."
   successfully brew cask install vagrant
   successfully brew cask install virtualbox
   successfully brew cask install alfred
-  successfully brew cask install charles
   
