@@ -18,6 +18,7 @@ export PATH="/usr/local/bin:$PATH"
 echo "Upda-grading Homebrew..."
   successfully brew update
   successfully brew upgrade
+  successfully brew analytics off
   
 ################################################################[ SW inst ]#####
 echo "Hipsterizing your terminal with homebrewed zsh"
